@@ -1,6 +1,6 @@
 # Unit Converter
 
-A unit converter made with MaterializeCSS and vanilla JavaScript, and little bit of DOM.
+A unit converter made with MaterializeCSS and vanilla JavaScript, and little bit of DOM. [You can see the it in action here.](https://kyroath.github.io/unit-converter/)
 
 ### Main menu at the index.html:
 
