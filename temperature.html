@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temperature Converter</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body id="temperature">
+
+    <div class="container">
+        <div class="row">
+                <h1 class="thin pink-text lighten-4 center-align hide-on-small-only">Temperature Converter</h1>
+                <h1 class="thin pink-text lighten-4 center-align hide-on-med-and-up">Temperature<br>Converter</h1>
+        </div>
+        <div class="row">
+            <div class="col m8 l6 offset-m2 offset-l3 s8 offset-s2 white-text">
+                <form>
+                    <div class="input-field">
+                            <input id="cls" type="text" >
+                            <label for="cls">Celsius</label>
+                    </div>
+                </form>
+                
+                <form>
+                    <div class="input-field">
+                            <input id="fhr" type="text" >
+                            <label for="fhr">Fahrenheit</label>
+                    </div>
+                </form>
+                    
+                <form>
+                    <div class="input-field">
+                            <input id="klv" type="text" >
+                            <label for="klv">Kelvin</label>
+                    </div>
+                </form>
+
+                <form>
+                    <div class="input-field">
+                            <input id="rnk" type="text" >
+                            <label for="rnk">Rankine</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        
+        <div class="fixed-action-btn">
+            <a href="index.html" class="btn-floating btn-large teal darken-2">
+                <i class="large material-icons ">home</i>
+            </a>
+
+            <ul>
+                <li><a href="temperature.html" class="btn-floating disabled pink darken-2"><i class="material-icons">whatshot</i></a></li>
+                <li><a href="weight.html" class="btn-floating orange darken-4"><i class="material-icons">layers</i></a></li>
+                <li><a href="length.html" class="btn-floating red darken-3"><i class="large material-icons ">linear_scale</i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                <h5 class="cyan-text darken-4 center-align thin">Fatih Karahan, 2017</h4>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JQuery import -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="js/temperature.js"></script>
+</body>
+</html>

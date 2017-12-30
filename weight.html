@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weight Converter</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body id="weight"
+    <div class="container">
+        <div class="row">
+            <h1 class="thin orange-text lighten-4 center-align hide-on-small-only">Weight Converter</h1>
+            <h1 class="thin orange-text lighten-4 center-align hide-on-med-and-up">Weight<br>Converter</h1>
+        </div>
+        <div class="row">
+            <div class="col m8 l6 offset-m2 offset-l3 s8 offset-s2 white-text">
+                <form>
+                    <div class="input-field">
+                            <input id="gr" type="text" >
+                            <label for="gr">Grams</label>
+                    </div>
+                </form>
+                
+                <form>
+                    <div class="input-field">
+                            <input id="kg" type="text" >
+                            <label for="kg">Kilograms</label>
+                    </div>
+                </form>
+                    
+                <form>
+                    <div class="input-field">
+                            <input id="ton" type="text" >
+                            <label for="ton">Tonnes</label>
+                    </div>
+                </form>
+
+                <form>
+                    <div class="input-field">
+                            <input id="oz" type="text" >
+                            <label for="oz">Ounces</label>
+                    </div>
+                </form>
+
+                <form>
+                    <div class="input-field">
+                            <input id="lbs" type="text" >
+                            <label for="lbs">Pounds</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        
+        <div class="fixed-action-btn">
+            <a href="index.html" class="btn-floating btn-large teal darken-2">
+                <i class="large material-icons ">home</i>
+            </a>
+
+            <ul>
+                <li><a href="temperature.html" class="btn-floating pink darken-2"><i class="material-icons">whatshot</i></a></li>
+                <li><a href="weight.html" class="btn-floating disabled orange darken-4"><i class="material-icons">layers</i></a></li>
+                <li><a href="length.html" class="btn-floating red darken-3"><i class="large material-icons ">linear_scale</i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                <h5 class="cyan-text darken-4 center-align thin">Fatih Karahan, 2017</h4>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JQuery import -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="js/weight.js"></script>
+</body>
+</html>

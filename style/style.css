@@ -1,0 +1,24 @@
+body {
+    background: #333333;
+    margin-top: 15%;
+}
+
+.s6 > .btn-link > .btn {
+    width: 100%;
+}
+
+.page-footer {
+    background: #333333;
+}
+
+#length {
+    margin-top: 3%;
+}
+
+#weight {
+    margin-top: 3%;
+}
+
+#temperature {
+    margin-top: 3%;
+}
