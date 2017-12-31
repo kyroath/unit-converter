@@ -1,5 +1,13 @@
 let idResults = {};
 
+let form = document.getElementsByTagName("form");
+
+for (let i = 0; i < form.length; i++) {
+    form[i].onsubmit = function() {
+        return false;
+    }
+}
+
 function emptyEverything() {
     let keys = Object.keys(idResults);
     for (let i = 0; i < keys.length; i++) {
@@ -20,7 +28,6 @@ function updateValues() {
 }
 
 document.getElementById('cm').addEventListener('input', function(e) {
-
 
     if (e.target.value == '' || isNaN(e.target.value)) {
         emptyEverything();
